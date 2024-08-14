@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Heading styles */
+.heading {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sub-heading styles */
+.sub-heading {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Description styles */
+.description {
+    padding:20px;
+    /* margin: 50px 400px ; */
+}
+
+.description h2 {
+    color:green;
+}
+
+/* RSVP form styles */
+.rsvp-form {
+    max-width: 500px;
+    margin: 0 10px;
+    background-color: rgb(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;                       
+}
+.rsvp-heading{
+    color: green;
+}
+/* Input styles */
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 50%;
+}
+
+button[type="submit"]:hover {
+    background-color: darkorange;
+}
+
+/* Confirmation message styles */
+.confirmation-message {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    background-color: rgb(92, 158, 217);
+    padding:25px;
+}

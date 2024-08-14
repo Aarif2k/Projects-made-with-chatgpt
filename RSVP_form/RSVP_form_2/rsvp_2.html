@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gif Gala RSVP</title>
+    <link rel="stylesheet" type="text/css" href="rsvp_2.css">
+</head>
+<body>
+    <!-- Invitation header -->
+    <div class="heading">
+        <h1>You're Invited to the GIF Gala: Where Memes Come to Life!</h1>
+    </div>
+
+    <!-- Subheading -->
+    <div class="sub-heading">
+        <h2>7/21/23</h2>
+    </div>
+
+    <!-- Short description of Gif Gala -->
+    <div class="description">
+        <h2>About the GIF Gala</h2>
+        <p>The GIF Gala is a vibrant event where guests dress up as their favorite GIFs or memes. Join us for a night of laughter, creativity, and unforgettable moments as we bring internet culture to life!</p>
+    </div>
+
+    <!-- RSVP form -->
+    <div class="rsvp-form">
+        <h2 class="rsvp-heading">RSVP</h2>
+        <form id="rsvp-form">
+             <!-- Confirmation message -->
+             <div class="confirmation" id="confirmation-message" style="display: none;">
+                <p>Thank you for your RSVP!</p>
+            </div>
+            
+            <!-- Email field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Attendees field -->
+            <label for="attendance">Attendance:</label><br>
+            <select id="attendance" name="attendance" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes, I'm attending</option>
+                <option value="no">No, I'm not attending</option>
+            </select><br><br>
+
+            <!-- Submit button -->
+             <center>
+                <button type="submit" class="submit-button">Submit</button>
+             </center>
+           
+        </form>
+    </div>
+
+    
+    
+
+    <script src="rsvp_2.js"></script>
+</body>
+</html>

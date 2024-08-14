@@ -1,0 +1,22 @@
+/* Center the button horizontally */
+.container {
+    text-align: center; /* Aligns content in the center */
+    margin-top: 50px; /* Adds space above the button */
+}
+
+/* Style for the login button */
+.login-button {
+    background-color: #1da1f2; /* Twitter blue color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border-radius: 20px; /* Rounded corners */
+    border: none; /* No border */
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Show hand cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+/* Change button background color on hover */
+.login-button:hover {
+    background-color: #0c7cbf; /* Darker blue color on hover */
+}

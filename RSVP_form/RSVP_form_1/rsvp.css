@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+/* Heading styles */
+.heading {
+    background-color: orange;
+    /* Background color */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    /* Add padding */
+    text-align: center;
+    /* Center align text */
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    justify-content: left;
+    text-align: left;
+    padding: 10px 10px 10px;
+    margin: 20px;
+
+}
+
+/* Sub-heading styles */
+.sub-heading {
+    background-color: orange;
+    /* Background color */
+    color: white;
+    /* Text color */
+    padding: 10px;
+    /* Add padding */
+    text-align: center;
+    /* Center align text */
+}
+
+/* About the GIF Gala styles */
+.about-gif-gala h2 {
+    color: green;
+    /* Text color */
+
+}
+
+.about-gif-gala {
+
+    margin: 20px;
+    /* Add margin */
+}
+
+/* RSVP heading styles */
+.rsvp-heading {
+    color: green;
+    /* Text color */
+    margin-top: 20px;
+    /* Add top margin */
+}
+
+/* RSVP form styles */
+.rsvp-form {
+    margin: 20px;
+    /* Add margin */
+}
+
+/* Input box styles */
+/* Input box styles */
+input[type="email"],
+select {
+    /* Selecting both input types */
+    width: 100%;
+    /* Set input width to 50% */
+    padding: 10px;
+    /* Add padding */
+    margin-bottom: 10px;
+    /* Add bottom margin */
+    border: 1px solid #ccc;
+    /* Add border */
+    border-radius: 5px;
+    /* Add border radius */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: green;
+    /* Background color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius */
+    padding: 10px 20px;
+    /* Add padding */
+    width: 100%;
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+/* Submit button hover styles */
+.submit-button:hover {
+    background-color: darkgreen;
+    /* Darker background color on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 900px) {
+    .container {
+
+        padding: 5px;
+        /* Reduce padding for smaller screens */
+    }
+
+    /* Adjust font sizes for smaller screens */
+    .about-gif-gala p,
+    .rsvp-heading {
+        font-size: 15px;
+        /* Set font size */
+    }
+}

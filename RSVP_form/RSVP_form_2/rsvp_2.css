@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    /*Light gray background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Invitation header styles */
+.heading {
+    background-color: #ff6600;
+    /* Orange background */
+    color: white;
+    /* White text color */
+    padding: 20px;
+    /* Padding around the header */
+    text-align: center;
+    /* Center align text */
+}
+
+/* Subheading styles */
+.sub-heading {
+    background-color: #ff6600;
+    /* Orange background */
+    color: white;
+    /* White text color */
+    padding: 10px;
+    /* Padding around the subheading */
+    text-align: center;
+    /* Center align text */
+}
+
+/* Description of Gif Gala styles */
+.description {
+    padding: 20px;
+    /* Padding around the description */
+    /* margin-right: 50px;
+    margin-left: 50px; */
+}
+
+.description h2 {
+    color: #008000
+        /* Padding around the description */
+}
+
+/* RSVP form styles */
+.rsvp-form {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-right: 90px;
+    /* Margin around the form */
+    padding: 20px;
+    /* Padding inside the form */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Drop shadow effect */
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+/* RSVP heading styles */
+.rsvp-heading {
+    color: #008000;
+    /* Green text color */
+    margin-bottom: 20px;
+    /* Bottom margin */
+}
+
+/* Input field styles */
+input[type="email"],
+select {
+    width: calc(100% - 20px);
+    /* Set input width */
+    padding: 10px;
+    /* Padding */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* Bottom margin */
+    border: 1px solid #ccc;
+    /* Border color */
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #008000;
+    /* Green background */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding */
+    width: 30%;
+    /* Full width */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    
+}
+
+/* Submit button hover styles */
+.submit-button:hover {
+    background-color: #005700;
+    /* Darker green background on hover */
+}
+
+/* Confirmation message styles */
+.confirmation {
+    display: none;
+    /* Initially hidden */
+    padding: 20px;
+    /* Padding */
+    background-color: #a5d0a5;
+    /* Green background */
+    color: white;
+    /* White text color */
+    text-align: center;
+    /* Center align text */
+    border-radius: 10px;
+    /* Rounded corners */
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    /* Top margin */
+    box-sizing: border-box;
+}

@@ -1,0 +1,93 @@
+* {
+    body: 0px;
+    margin: 0px;
+    background-color: rgb(202, 233, 134);
+    /* Earthy color tone */
+}
+
+/* Hero section styles */
+.hero {
+
+    padding: 100px 20px;
+    /* Spacing inside the hero section */
+    text-align: center;
+    /* Center-align content */
+}
+
+/* Hero content styles */
+.hero-content {
+    max-width: 600px;
+    /* Limit content width */
+    margin: 0 auto;
+    /* Center content horizontally */
+}
+
+/* Heading styles */
+.hero-heading {
+    font-size: 2.5rem;
+    /* Large font size */
+    color: #333;
+    /* Neutral color */
+    margin-bottom: 20px;
+    /* Spacing below heading */
+    font-family: 'Rubik', sans-serif; /* Apply Rubik font */
+}
+
+.hero-image {
+    display: block;
+    /* Ensure image is displayed as block */
+    width: 180px;
+    /* Set image width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 0 auto 30px;
+    /* Add spacing below the image */
+    border-radius: 50%;
+    /* Round corners for a circular shape */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    /* Add shadow behind the image */
+}
+
+/* Sub-heading styles */
+.hero-subheading {
+    font-size: 1.5rem;
+    /* Medium font size */
+    color: #666;
+    /* Slightly darker neutral color */
+    margin-bottom: 30px;
+    /* Spacing below sub-heading */
+}
+
+/* Paragraph styles */
+.hero-paragraph {
+    font-size: 1.2rem;
+    /* Normal font size */
+    color: #555;
+    /* Slightly darker neutral color */
+    margin-bottom: 40px;
+    /* Spacing below paragraph */
+}
+
+/* Call to action button styles */
+.cta-button {
+    display: inline-block;
+    /* Display as inline-block to respect padding and margin */
+    background-color: #007bff;
+    /* Blue color for button */
+    color: #fff;
+    /* White text color */
+    text-decoration: none;
+    /* Remove default underline */
+    padding: 12px 24px;
+    /* Padding inside button */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}

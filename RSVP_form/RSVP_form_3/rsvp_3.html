@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Gala Invitation</title>
+    <link rel="stylesheet" type="text/css" href="rsvp_3.css">
+</head>
+
+<body>
+    <!-- Invitation Heading -->
+    <div class="heading">
+        <h1>You're Invited to the GIF Gala: Where Memes Come to Life!</h1>
+    </div>
+
+    <!-- Sub-heading -->
+    <div class="sub-heading">
+        <h2>7/21/23</h2>
+    </div>
+
+    <!-- Description of the GIF Gala -->
+    <div class="description">
+        <h2>About the GIF Gala</h2>
+        <p>The GIF Gala is a vibrant event where guests dress up as their favorite GIFs or memes. Join us for a night of
+            laughter, creativity, and unforgettable moments as we bring internet culture to life!</p>
+    </div>
+
+    <!-- RSVP form -->
+    <center>
+        <div class="rsvp-form">
+            <!-- Confirmation message (initially hidden) -->
+            <div class="confirmation-message" id="confirmation-message"></div>
+            <h2 class="rsvp-heading">RSVP</h2>
+            <form id="rsvp-form">
+                <!-- Email input box -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <!-- Attendees dropdown -->
+                <label for="attendance">Attendance:</label>
+                <select id="attendance" name="attendance" required>
+                    <option value="">Select an option</option>
+                    <option value="attending">Yes, I'm willing to attend</option>
+                    <option value="not-attending">No, I'm not able to attend</option>
+                </select>
+    
+                <!-- Submit button -->
+                 <center>
+                    <button type="submit">Submit</button>
+                 </center>
+            </form>
+        </div>
+    </center>
+    
+
+
+
+    <!-- Script for interactivity -->
+    <script src="rsvp_3.js"></script>
+</body>
+
+</html>
